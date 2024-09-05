@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins",sans-serif;
+}
+#hero{
+    background-image: url(../image/andri-helmansyah-e9tCOGG40mw-unsplash.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+}
+
+.nav-item .nav-link{
+    font-size: 14px;
+    margin: 0px 5px;
+}
+/* btn */
+.btn-danger{
+    background-color: #bd0001;
+    padding: 8px 12px;
+    border-radius: 15px;
+    color: white;
+}
+
+.hero-title{
+    padding-top: 250px;
+    font-weight: bold;
+}
+.hero-text h1{
+    font-size: 70px;
+    font-weight: 500px;
+}
+.hero-text p{
+    font-size: 24px;
+    font-weight: 200;
+}
