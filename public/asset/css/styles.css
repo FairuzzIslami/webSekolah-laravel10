@@ -11,16 +11,32 @@ body{
     height: 800px;
 }
 
+/* nav */
 .nav-item .nav-link{
     font-size: 14px;
     margin: 0px 5px;
 }
+.scroll-nav-active{
+    background-color: white;
+    border-bottom: 2px solid #bd0001;
+}
+.text-nav-active{
+    color: black;
+}
+
+
 /* btn */
 .btn-danger{
     background-color: #bd0001;
-    padding: 8px 12px;
+    padding: 8px 20px;
     border-radius: 15px;
     color: white;
+}
+.btn-outline-danger{
+    background-color:transparent;
+    padding: 8px 30px;
+    border-radius: 8px;
+    color: #bd0001;
 }
 
 .hero-title{
