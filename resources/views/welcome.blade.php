@@ -135,6 +135,30 @@
                 </div>
             </section>
             {{-- berita akhir --}}
+
+            {{-- Join --}}
+            <section id="join" class="py-5">
+                <div class="container py-5">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-6">
+                                <div class="d-flex align-item-center"> 
+                                    <h5 class="fw-bold text-danger">Daftar Santri</h5>
+                                </div>
+                                <h2 class="fw-bold">Gabung bersama kami,<br>mewujudkan generasi rabbani</h2>
+                                <p>Pesantren Al-rahman Merupakan pesantren <br>
+                                    terbaik di Boyolali,Jawa tengah dgn meluluskan <br> Santri dan Ustad yg ber ahlak mulia dan <br> Berkualitas
+                                </p>
+                                <button class="btn btn-outline-danger">Register</button>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex">
+                                <img src="{{asset("asset/image/islamic-boarding-school-students-are-reading-koran-courtyard-mosque_368093-3579.jpeg")}}" width="600px" class="rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {{-- Join --}}
         </body>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <script>
