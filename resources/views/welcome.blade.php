@@ -159,7 +159,44 @@
                 </div>
             </section>
             {{-- Join --}}
+
+            {{-- vidio --}}
+            <section id="vidio" class="py-5">
+                <div class="container">
+                    <div class="text-center">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/hSycHNqJMGk?si=iqX3z4d3DqzVKEhH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <section id="vidio_yt py-5">
+                <div class="container">
+                    <div class="header-berita text-center align-item-center py-5">
+                        <h2 class="fw-bold">Vidio kegiatan Pondok pesantren</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <iframe width="100%" height="215" src="https://www.youtube.com/embed/mtHm7qdpqJM?si=XQ46aArAeZ8ipMVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-lg-4">
+                            <iframe width="100%" height="215" src="https://www.youtube.com/embed/aRI8L0ACq7o?si=TwkXI1YU72cC0CLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-lg-4">
+                            <iframe width="100%" height="215" src="https://www.youtube.com/embed/2NTgRWAEBFk?si=Ftl8PTWji1Qfrrb4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="footer-berita text-center py-5">
+                        <a href="" class=" btn btn-outline-danger">Vidio lainnya</a>
+                    </div>
+                </div>
+            </section>
+            {{-- vidio akhir --}}
         </body>
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <script>
             const navbar = document.querySelector(".fixed-top");

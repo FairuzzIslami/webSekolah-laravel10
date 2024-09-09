@@ -39,6 +39,8 @@ body{
     color: #bd0001;
 }
 
+
+/* hero */
 .hero-title{
     padding-top: 250px;
     font-weight: bold;
@@ -50,4 +52,13 @@ body{
 .hero-text p{
     font-size: 24px;
     font-weight: 200;
+}
+
+/* vidio */
+#vidio{
+    background-image: url(../image/il-bg-video.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
 }
