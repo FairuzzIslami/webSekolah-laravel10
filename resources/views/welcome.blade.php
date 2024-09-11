@@ -205,7 +205,7 @@
                             <h5 class="fw-bold text-white">Foto Kegiatan</h5>
                         </div>
                         <div>
-                            <a href="" class="btn btn-outline-white">Foto lainnya</a>
+                            <a href="" class="btn btn-outline-white">Berita lainnya</a>
                         </div>
                     </div>
                     <div class="row py-5">
@@ -225,6 +225,14 @@
                 </div>
             </section> 
             {{-- foto akhir --}}
+
+            {{-- fasilitas --}}
+            <section id="fasilitas">
+                <div class="container">
+                    
+                </div>
+            </section>
+            {{-- fasilitas --}}
         </body>
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

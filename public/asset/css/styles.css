@@ -24,7 +24,6 @@ body{
     color: black;
 }
 
-
 /* btn */
 .btn-danger{
     background-color: #bd0001;
@@ -37,6 +36,17 @@ body{
     padding: 8px 30px;
     border-radius: 8px;
     color: #bd0001;
+}
+.btn-outline-white{
+    background-color: transparent;
+    color: #ffff;
+    padding: 8px 30px;
+    border-radius: 8px;
+    border: 1px solid #ffff;
+}
+.btn-outline-white:hover{
+    background-color: #bd0001;
+    color: white;
 }
 
 
@@ -61,4 +71,26 @@ body{
     background-size: cover;
     background-position: center;
     height: 500px;
+}
+
+
+/* foto */
+.section-foto{
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+}
+.paralax{
+    background-image: url(../image/daniil-silantev-LVYRCOdnC7g-unsplash.jpeg);
+}
+.stripe-putih{
+    height: 5px;
+    width: 40px;
+    background-color: #ffff;
 }
