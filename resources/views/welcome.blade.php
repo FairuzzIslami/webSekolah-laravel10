@@ -229,7 +229,7 @@
             {{-- fasilitas --}}
             <section id="fasilitas">
                 <div class="container">
-                    
+                    <img src="{{asset('asset/icon/ic-neraca.png')}}" alt="">
                 </div>
             </section>
             {{-- fasilitas --}}
