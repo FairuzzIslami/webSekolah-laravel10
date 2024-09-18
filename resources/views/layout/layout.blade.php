@@ -7,6 +7,13 @@
             <link rel="icon" type="image/x-icon" href="{{asset('asset/icon/ic-logo.png')}}">
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
             <link rel="stylesheet" href="{{asset('asset/css/styles.css')}}">
+            
+            {{-- magnific --}}
+            <link rel="stylesheet" href="{{asset('asset/css/magnific.css')}}">
+            <link rel="stylesheet" href="{{asset('asset/js/magnific.js')}}">
+
+            {{-- Aos init --}}
+            <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         </head>
         <body class="antialiased">
 
@@ -124,7 +131,17 @@
             {{-- footer akhir --}}
         </body>
         
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        {{-- Navigation --}}
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+
+        <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="{{asset('asset/js/magnific.js')}}"></script>
+
+        {{-- Aos init --}}
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
         <script>
             const navbar = document.querySelector(".fixed-top");
             window.onscroll = () => { 
@@ -136,5 +153,20 @@
                 }
             }
             AOS.init();
+
+            // magnific
+            $(document).ready(function() {
+            $('.image-link').magnificPopup({
+                type: 'image',
+                retina: {
+                    ratio: 1,
+                    replaceSrc: function(item, ratio) {
+                        return item.src.replace(/\.(\w+)$/, function(m) {
+                            return '@2x.' + m;
+                        });
+                    }
+                },
+            });
+        });
         </script>
     </html>

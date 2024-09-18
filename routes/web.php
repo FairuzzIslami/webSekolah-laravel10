@@ -22,3 +22,7 @@ Route::get('/berita', function () {
 Route::get('/detail', function () {
     return view('berita.detail');
 });
+Route::get('/foto', function () {
+    return view('foto.foto');
+});
+

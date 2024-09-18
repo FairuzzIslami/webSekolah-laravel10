@@ -7,7 +7,7 @@
 <section id="hero" class="px-0">
     <div class="container text-center text-white">
         <div class="hero-title">
-            <div class="hero-text">
+            <div class="hero-text" data-aos="fade-up">
                 <h1>
                     Selamat Datang <br> Di Pesantren Al-rahman
                 </h1>
@@ -18,40 +18,48 @@
 </section>
 
 <section id="card" style="margin-top:-40px">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
+    <div class="container col-xxl-9">
+        <div class="row">
+                <div class="col-lg-3 col-md-6 col" data-aos="flip-right">
                     <div class="bg-white rounded-3 p-3 d-flex justify-content-between align-items-center ">
-                        <h4>Pendidikan berkualitas</h4>
+                        <div class="text-padding">
+                            <p>Pendidikan berkualitas</p>
+                        </div>
                         <img src="{{asset('asset/icon/ic-book.png')}}" height="100px" alt="">
                     </div>
                 </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col" data-aos="flip-right">
                 <div class="bg-white rounded-3 p-3 d-flex justify-content-between align-items-center ">
-                    <h4>Pendidikan berahlak</h4>
+                    <div class="text-padding">
+                        <p>Pendidikan berahlak</p>
+                    </div>
                     <img src="{{asset('asset/icon/ic-globe.png')}}" height="100px" alt="">
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col" data-aos="flip-right">
                 <div class="bg-white rounded-3 p-3 d-flex justify-content-between align-items-center ">
-                    <h4>Pendidikan muamalah</h4>
+                    <div class="text-padding">
+                        <p>Pendidikan muamalah</p>
+                    </div>
                     <img src="{{asset('asset/icon/ic-neraca.png')}}" height="100px" alt="">
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col" data-aos="flip-right">
                 <div class="bg-white rounded-3 p-3 d-flex justify-content-between align-items-center ">
-                    <h4>Pendidikan Teknologi</h4>
+                    <div class="text-padding">
+                        <p>Pendidikan Teknologi</p>
+                    </div>
                     <img src="{{asset('asset/icon/ic-komputer.png')}}" height="100px" alt="">
                 </div>
             </div>
         </div>
-    </div>      
-</section>
+    </div>
+</div>
 {{-- header akhir --}}
 
 {{-- berita --}}
 <section id="berita">
-    <div class="container py-5 ">
+    <div class="container py-5" data-aos="flip-up">
         <div class="header-berita text-center align-item-center">
             <h2 class="fw-bold">Berita kegiatan Pondok pesantren</h2>
         </div>
@@ -93,15 +101,15 @@
         </div>
 
         <div class="footer-berita text-center py-5">
-            <a href="" class=" btn btn-outline-danger">Berita lainnya</a>
+            <a href="/berita" class=" btn btn-outline-danger">Berita lainnya</a>
         </div>
     </div>
 </section>
 {{-- berita akhir --}}
 
-{{-- Join --}}
+{{-- Join  --}}
 <section id="join" class="py-5">
-    <div class="container py-5">
+    <div class="container py-5" data-aos="flip-right">
         <div class="row d-flex align-items-center">
             <div class="col-lg-6">
                     <div class="d-flex align-item-center"> 
@@ -114,18 +122,18 @@
                     <button class="btn btn-outline-danger">Register</button>
             </div>
             <div class="col-lg-6">
-                <div class="d-flex">
-                    <img src="{{asset("asset/image/islamic-boarding-school-students-are-reading-koran-courtyard-mosque_368093-3579.jpeg")}}" width="600px" class="rounded" alt="">
+                <div class="d-flex py-5">
+                    <img src="{{asset("asset/image/islamic-boarding-school-students-are-reading-koran-courtyard-mosque_368093-3579.jpeg")}}" width="500px" class="image-fluid" alt="">
                 </div>
             </div>
         </div>
     </div>
 </section>
-{{-- Join --}}
+{{-- Join akhir --}}
 
 {{-- vidio --}}
 <section id="vidio" class="py-5">
-    <div class="container">
+    <div class="container" data-aos="zoom-in-up">
         <div class="text-center">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/hSycHNqJMGk?si=iqX3z4d3DqzVKEhH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -134,7 +142,7 @@
 </section>
 
 <section id="vidio_yt py-5">
-    <div class="container">
+    <div class="container" data-aos="zoom-in-up">
         <div class="header-berita text-center align-item-center py-5">
             <h2 class="fw-bold">Vidio kegiatan Pondok pesantren</h2>
         </div>
@@ -161,28 +169,39 @@
 
 {{-- foto --}}
 <section id="foto" class="section-foto paralax">
-    <div class="container">
-        <div class="d-flex justify-content-between align-items-center mb-5">
+    <div class="container" data-aos="fade-left"
+    data-aos-anchor="#example-anchor"
+    data-aos-offset="500"
+    data-aos-duration="500">
+        <div class="d-flex justify-content-between align-items-center mb-5 mt-5">
             <div class="d-flex align-items-center">
                 <div class="stripe-putih me-2"></div>
                 <h5 class="fw-bold text-white">Foto Kegiatan</h5>
             </div>
             <div>
-                <a href="" class="btn btn-outline-white">Berita lainnya</a>
+                <a href="/foto" class="btn btn-outline-white">Berita lainnya</a>
             </div>
         </div>
         <div class="row py-5">
             <div class="col-lg-3 col-md-6 col-6">
-                <img src="{{asset("asset/image/il-photo-01.png")}}" alt="" class="img-fluid">
+                <a href="{{asset('asset/image/il-photo-01.png')}}" class="image-link">
+                    <img src="{{asset("asset/image/il-photo-01.png")}}" alt="" class="img-fluid">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-6">
-                <img src="{{asset("asset/image/il-photo-02.png")}}" alt="" class="img-fluid">
+                <a href="{{asset('asset/image/il-photo-02.png')}}" class="image-link">
+                    <img src="{{asset("asset/image/il-photo-02.png")}}" alt="" class="img-fluid">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-6">
-                <img src="{{asset("asset/image/il-photo-03.png")}}" alt="" class="img-fluid">
+                <a href="{{asset('asset/image/il-photo-03.png')}}" class="image-link">
+                    <img src="{{asset("asset/image/il-photo-03.png")}}" alt="" class="img-fluid">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-6">
-                <img src="{{asset("asset/image/il-photo-04.png")}}" alt="" class="img-fluid">
+                <a href="{{asset('asset/image/il-photo-03.png')}}" class="image-link">
+                    <img src="{{asset("asset/image/il-photo-03.png")}}" alt="" class="img-fluid">
+                </a>
             </div>
         </div>
     </div>
@@ -191,7 +210,7 @@
 
 {{-- fasilitas --}}
 <section id="fasilitas" class="py-5">
-    <div class="container">
+    <div class="container" data-aos="zoom-out-up">
         <div class="text-center">
             <h2 class="fw-bold">Fasilitas Pesantren</h2>
         </div>

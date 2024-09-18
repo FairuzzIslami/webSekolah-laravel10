@@ -18,7 +18,8 @@ body{
 }
 .scroll-nav-active{
     background-color: white;
-    border-bottom: 2px solid #bd0001;
+    /* border-bottom: 2px solid #bd0001; */
+    box-shadow: 1px 1px 11px -11px rgba(2, 2, 2,0.08);
 }
 .text-nav-active{
     color: black;
