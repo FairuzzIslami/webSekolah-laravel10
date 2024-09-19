@@ -2,7 +2,7 @@
 
 @section('content')
     <section id="detail" class="py-5" style="margin:100px">
-        <div class="container col-xxl-8">
+        <div class="container col-xxl-8 ">
             <div class="div">
                 Home / Berita / Pengajian Pesantren Al-rahman
             </div>

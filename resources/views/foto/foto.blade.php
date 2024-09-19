@@ -2,7 +2,7 @@
 
 @section('content')
     {{-- foto --}}
-<section id="foto" class="section-foto paralax" ">
+<section id="foto" class="section-foto paralax" style="margin-top: 80px">
     <div class="container">
         <div class="d-flex justify-content-between align-items-center mb-5">
             <div class="d-flex align-items-center">
