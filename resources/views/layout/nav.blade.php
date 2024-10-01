@@ -24,7 +24,14 @@
         </li>
         </ul>
         <div class="d-flex" role="search">
-            <button class="btn btn-danger" type="submit">Register</button>
+            @auth
+                <form action="/logout" method="POST">
+                    @csrf
+                    <button type="submit" class="btn btn-dark">Logout</button>
+                </form>
+                @else
+                <button class="btn btn-danger" type="submit">Register</button>
+            @endauth
         </div>
     </div>
     </div>

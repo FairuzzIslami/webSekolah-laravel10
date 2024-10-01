@@ -31,7 +31,7 @@ Route::get('/foto', function () {
     return view('foto.foto');
 });
 
-Route::get('/login', [AuthController ::class, 'index'])->name('login');
+Route::get('/login', [AuthController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [AuthController::class, 'authenticate']);
 Route::post('/logout', [AuthController::class, 'logout']);
 

@@ -10,13 +10,13 @@
             <form action="/login" method="POST">
                 @csrf
                 <div class="form-grup mb-3">
-                    <label for="email">Massukan Email</label>
+                    <label for="">Massukan Email</label>
                     <input type="text" name="email" class="form-control">
                 </div>
 
                 <div class="form-grup mb-3">
-                    <label for="pw">Password</label>
-                    <input type="password" name="pw" class="form-control">
+                    <label for="">Password</label>
+                    <input type="password" name="password" class="form-control">
                 </div>
 
                 <button type="submit" class="btn btn-primary">
